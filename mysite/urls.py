@@ -22,4 +22,7 @@ from django.conf.urls import include
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'', include('blog.urls')),
+    url(r'1', include('blog.urls')),
+    url(r'2', include('blog.urls')),
+
 ]
