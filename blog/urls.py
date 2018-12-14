@@ -3,7 +3,7 @@ from . import views
 from django.conf.urls import include
 
 urlpatterns = [
-    url(r'^$', views.index, name='index'),
+    url(r'^$', views.post_list, name='index'),
     url(r'^1$', views.post_list, name='index'),
-    url(r'^2$', views.post, name='index'),
+#    url(r'^2$', views.post, name='index'),
 ]
