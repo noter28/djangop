@@ -1,0 +1,25 @@
+
+a{
+    color:green;
+    font-size: 30px;
+}
+div{
+    color: black;
+    background-color: #747474;
+    border: 5px solid green;
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px
+
+}
+.qwe{
+border: 5px solid blue;
+background-color: white;
+
+}
+
+.qwe:hover{
+border: 30px solid green;
+transform: rotate(180deg);
+transition: 5s all;
+}

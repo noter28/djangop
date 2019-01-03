@@ -1,9 +1,11 @@
 <!DOCTYPE html>
+{% load static %}
 <html>
 
         <meta charset="UTF-8"/>
         <title>Title</title>
-        <link href="style.css"rel="stylesheet"type="text/css"/>
+        <link href="{% static 'css/style.css' %}"rel="stylesheet"type="text/css"/>
+        <script type="text/javascript"src="{% static 'css/act.js' %}"></script>
     </head>
     <body>
         1) Привет <a href="http://google.com">мир</a>!
@@ -12,11 +14,12 @@
         5) <h1>h1-h6 teg size</h1>
         6) <img src="https://s3.amazonaws.com/img.takeoff/manual/00028400056618_CF_AV1_master.jpg" width="250"/><br>
         7) <div>teg div</div>
+         <div class="qwe">teg div with class</div>
         8)
         <table border="1">
             <tr><td>teg</td><td>table</td><td>1!</td></tr>
             <tr><td>Hello</td><td>world</td><td>2!</td></tr>
-            <tr><td>Hello</td><td>world</td><td>3!</td></tr><br/>
+            <tr><td><img src="https://s3.amazonaws.com/img.takeoff/manual/00028400056618_CF_AV1_master.jpg" width="250"/></td><td>world</td><td>3!</td></tr><br/>
         9)<input value="default value"/><br/>
             10)<textarea></textarea>
         </table>
